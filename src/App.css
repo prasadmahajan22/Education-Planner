@@ -1,0 +1,75 @@
+.main-cont{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.main-cont h1{
+  margin: 2rem 0;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.main-cont .inputs_Button{
+  text-align: center;
+}
+
+.main-cont .inputs_Button .subject{
+  padding: 0.5rem;
+  width: 60%;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  
+}
+
+
+.main-cont .inputs_Button .hour{
+  width: 16%;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.main-cont .inputs_Button .add{
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: rgb(59, 130, 246);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.main-cont .results{
+  color: white;
+  margin-top: 4rem;
+}
+
+@media (max-width : 800px){
+  .main-cont h1{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width : 600px){
+  .main-cont h1{
+    font-size: 2.2rem;
+  }
+
+  .main-cont .inputs_Button .subject{
+    width: 57%;
+    padding-left: 0.25rem;
+  }
+
+  .main-cont .inputs_Button .hour{
+    width: 19%;
+    padding-left: 0.25rem;
+  }
+}
